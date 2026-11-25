@@ -6,7 +6,7 @@ import streamlit as st
 import seaborn as sns
 
 def k_means():
-    df = pd.read_csv("c:/Users/Chirag Patil/OneDrive/Desktop/gauri/field project/FP_data2.csv")
+    df = pd.read_csv("data/FP_data2.csv")
 
     features = [
         "Energy Efficient Appliances",

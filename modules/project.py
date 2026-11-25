@@ -1,5 +1,5 @@
 import pandas as pd
-df=pd.read_excel("c:/Users/Chirag Patil/OneDrive/Desktop/gauri/field project/field_project_data.xlsx")
+df=pd.read_excel("data/field_project_data.xlsx")
 def mapping(df):
     house_map={
             "Joint Family ":"Joint Family",

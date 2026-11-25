@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-from decisiontree import train_model,show_decision_tree
-from kmeans import k_means
-from field_project import demographics, energy_usage, waste, transportation, awareness 
-from carbon_footprint_predict import carbon_footprint
-from suggestion_analysis import suggestion_plot
+from modules.decisiontree import train_model,show_decision_tree
+from modules.kmeans import k_means
+from modules.field_project import demographics, energy_usage, waste, transportation, awareness 
+from modules.carbon_footprint_predict import carbon_footprint
+from modules.suggestion_analysis import suggestion_plot
 import matplotlib.pyplot as plt 
 
 # Page config
@@ -18,7 +18,7 @@ Statistics = st.sidebar.selectbox(
      "Clustering", "Carbon Footprint"]
 )
 
-df = pd.read_csv("c:/Users/Chirag Patil/OneDrive/Desktop/gauri/field project/FP_data2.csv")
+df = pd.read_csv("data/FP_data2.csv")
 
 if Statistics == "Home":
     st.header("🏠 Project Dashboard:Field-Based Carbon Footprint Estimation for Households")

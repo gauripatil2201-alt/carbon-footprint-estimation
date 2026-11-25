@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 import streamlit as st
 
 def carbon_footprint():
-    df = pd.read_csv("c:/Users/Chirag Patil/OneDrive/Desktop/gauri/field project/FP_data2.csv")
+    df = pd.read_csv("data/FP_data2.csv")
     
     
     ele_map = {

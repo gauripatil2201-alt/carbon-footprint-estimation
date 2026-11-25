@@ -3,7 +3,7 @@ import string
 from collections import Counter
 import matplotlib.pyplot as plt
 import streamlit as st
-df = pd.read_csv("c:/Users/Chirag Patil/OneDrive/Desktop/gauri/field project/FP_data2.csv")
+df = pd.read_csv("data/FP_data2.csv")
 print(df.columns)
 def suggestion_plot():
     text = df["Suggestions"]

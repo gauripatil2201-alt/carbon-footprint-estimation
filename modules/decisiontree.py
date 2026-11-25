@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 def train_model():
     # 1. Load the cleaned dataset
-    df = pd.read_csv("c:/Users/Chirag Patil/OneDrive/Desktop/gauri/field project/FP_data2.csv")
+    df = pd.read_csv("data/FP_data2.csv")
 
     # 2. Select features
     X = df[[

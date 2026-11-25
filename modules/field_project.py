@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
 
-df = pd.read_csv("FP_data2.csv")
+df = pd.read_csv("data/FP_data2.csv")
 
 def show_fig(fig):
     fig.tight_layout()
